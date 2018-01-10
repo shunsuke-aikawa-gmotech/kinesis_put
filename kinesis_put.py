@@ -6,19 +6,6 @@ from boto3.session import Session
 
 
 
-# id = os.environ.get("AWS_ACCESS_KEY_ID")
-# key = os.environ.get("AWS_SECRET_ACCESS_KEY")
-# re = os.environ.get("AWS_DEFAULT_REGION")
-#
-#
-# session = Session(
-#         aws_access_key_id = 'AKIAIK7X7MUMAGA23CTA',
-#         aws_secret_access_key = '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',
-#         region_name = re)
-#
-# client = session.client('kinesis')
-
-
 client = boto3.client('kinesis')
 
 
